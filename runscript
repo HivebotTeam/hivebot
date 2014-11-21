@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# generated with yeoman generator
+# choose deployment variables, etc, then launch then through binscript
+
+export HIVEBOT_TEST2=true
+
+./bin/hive --test

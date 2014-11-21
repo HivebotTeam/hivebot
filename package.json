@@ -1,0 +1,33 @@
+{
+  "name": "hivebot",
+  "version": "0.0.1",
+  "author": {
+    "name": "Ashley Luna <luna@airsi.de>"
+  },
+  "keywords": [
+    "irc",
+    "bot"
+  ],
+  "description": "A robot specializing in microbots to suit the needs of specific channels",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dualmoon/hivebot.git"
+  },
+  "dependencies": {
+    "coffee-script": "1.6.3",
+    "irc": "^0.3.7",
+    "optparse": "1.0.4"
+  },
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm": ">= 1.1.x"
+  },
+  "main": "./index",
+  "bin": {
+    "hubot": "./bin/hive"
+  },
+  "bugs": {
+    "url": "https://github.com/dualmoon/hivebot/issues"
+  },
+  "homepage": "http://airsi.de/hivebot"
+}

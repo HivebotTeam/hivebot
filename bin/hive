@@ -1,0 +1,28 @@
+#!/usr/bin/env coffee
+
+console.log 'Hive loading...'
+
+Queen = require '..'
+
+# parse console options and start hive queen
+
+OptParse = require 'optparse'
+
+Switches = [
+  ["-t", "--test", "test flag"]
+]
+
+Options =
+  test:   false
+  test2:  process.env.HIVEBOT_TEST2 or false
+
+Parser = new OptParse.OptionParser(Switches)
+
+Parser.on 'test', (opt) ->
+  Options.test = true
+  
+Parser.parse process.argv
+
+queen = Queen.loadQueen Options.test
+queen.test2 = Options.test2
+queen.debug()
