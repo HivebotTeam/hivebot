@@ -1,0 +1,17 @@
+{
+  "adapter": "irc",
+  "config": {
+    "serverName": "NixtrixIRC",
+    "serverURI": "irc.nixtrixirc.net",
+    "serverSSL": true,
+    "serverPort": 6697
+    "channels": [
+      "#anarchy"
+    ]
+    "nick": "[hivebot]",
+    "realName": "Hivebot Debug"
+  },
+  "plugins": [
+    "kitty"
+  ]
+}
