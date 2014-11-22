@@ -15,8 +15,10 @@
   },
   "dependencies": {
     "coffee-script": "1.6.3",
+    "events": "^1.0.2",
     "irc": "^0.3.7",
-    "optparse": "1.0.4"
+    "optparse": "1.0.4",
+    "readline": "0.0.5"
   },
   "engines": {
     "node": ">= 0.8.x",

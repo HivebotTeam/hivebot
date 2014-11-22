@@ -23,6 +23,8 @@ Parser.on 'test', (opt) ->
   
 Parser.parse process.argv
 
+#TODO: set up and load a Queen using a shell adapter that will allow interactivity
+
 queen = Queen.loadQueen Options.test
 queen.test2 = Options.test2
 queen.debug()
